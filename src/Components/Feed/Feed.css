@@ -1,0 +1,12 @@
+.feed{
+  flex: .7;
+}
+.feed__top {
+  display: flex;
+  border: 1px solid rgba(219, 219, 219, 1);
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 25px;
+}

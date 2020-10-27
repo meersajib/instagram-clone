@@ -1,0 +1,9 @@
+.story{
+    display: flex;
+    flex-direction: column;
+}
+.story > .story__body > .MuiAvatar-root{
+    height: 66px;
+    width: 66px;
+    margin: 0 3px;
+}

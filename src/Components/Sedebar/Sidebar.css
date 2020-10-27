@@ -1,0 +1,60 @@
+.sidebar{
+    flex: .3;
+    padding-left: 20px;
+    position: fixed;
+    top: 100px;
+    right: 17%;
+}
+.sidebar__userSection{
+    display: flex;
+    align-items: center;
+}
+.sidebar__userSection > .MuiAvatar-root{
+    margin: 0 15px;
+    height: 60px;
+    width: 60px;
+}
+.sidebar__followers--head {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 10px 30px;
+}
+.sidebar__followers--listLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sidebar__followers--list {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.sidebar__followers--listLeft > .MuiAvatar-root {
+    margin-right: 10px;
+}
+.sidebar__followers--listLeft p {
+    font-size: 13px;
+}
+.sidebar__followers--listRight {
+    align-items: center;
+    display: flex;
+}
+.sidebar__followers--listRight a{
+    text-decoration: none;
+}
+.muted__text{
+    color: #8e8e8e;
+}
+.sidebar__upload{
+    position: absolute;
+}
+.sidebar__textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 30px 20px 10px;
+    margin-top: 10px;
+}
+/* .sidebar__upload button{
+    display: none;
+} */

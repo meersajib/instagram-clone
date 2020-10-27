@@ -1,0 +1,59 @@
+.feedContent {
+  background: white;
+  width: 100%;
+  border: 1px solid rgba(219, 219, 219, 1);
+  margin: 10px 0;
+}
+.feedContent__top {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.feedContent__top > p {
+  margin-left: 10px;
+}
+.feedContent__bottom--active {
+  color: #ed4956;
+}
+.feedContent__bottom--inActive {
+  color: #262626;
+}
+.feedContent__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.feedContent__bottom--left .MuiSvgIcon-root {
+    margin: 20px 20px 20px 0;
+    height: 32px;
+    width: 32px;
+}
+
+.MuiAvatar-root.MuiAvatar-circle.feedContent__smallIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.feedContent__bottom--right .MuiSvgIcon-root {
+    margin-top: 20px;
+    height: 32px;
+    width: 32px;
+}
+.feedContent__comment {
+    padding: 20px 10px 10px;
+    position: relative;
+}
+.feedContent__comment > textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.feedContent__comment > button {
+    position: absolute;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(0,149,246,.3);
+    right: 30px;
+}
